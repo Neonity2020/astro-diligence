@@ -18,7 +18,7 @@ const { metadata } = Astro.props;
 <Layout metadata={metadata}>
   <slot name="announcement">
     <!-- 插入顶部消息 -->
-    <!-- <Announcement /> -->
+    <Announcement />
   </slot>
   <slot name="header">
     <Header {...headerData} isSticky showRssFeed showToggleTheme />

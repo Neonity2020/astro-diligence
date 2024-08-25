@@ -3,7 +3,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: '首页',
+      text: '我的首页',
       href: '/',
       //   links: [
       //     {
@@ -127,7 +127,7 @@ export const headerData = {
     // },
   ],
   // TODO 顶部右上角的按钮
-  actions: [{ text: '可修改任意地址', href: 'https://github.com/zzdaddy', target: '_blank' }],
+  actions: [{ text: 'Neonity', href: 'https://github.com/neonity2020', target: '_blank' }],
 };
 
 export const footerData = {
@@ -192,6 +192,6 @@ export const footerData = {
   // TODO 底部 版权声明 修改图片url为本地图片
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(src/assets/favicons/favicon.ico)]"></span>
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="/"> zzdaddy</a> · All rights reserved.
+    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="/"> Neonity</a> · All rights reserved.
   `,
 };
